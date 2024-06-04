@@ -177,7 +177,7 @@
 #stream__box{
   background-color: #3f434a;
   height: 60vh;
-  display: none;
+  /* display: none; */
 }
 
 #stream__box .video__container{
@@ -185,7 +185,6 @@
   border-radius: 0;
   height: 100%!important;
   width:100%!important;
-
   background-size: 300px;
 }
 
@@ -305,7 +304,7 @@
   background-color: #1a1a1a60;
   padding: 1rem;
   left: 50%;
-  display: none;
+  display: flex;
   gap: 1rem;
   transform: translateX(-50%);
 }
